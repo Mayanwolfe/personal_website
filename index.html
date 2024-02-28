@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -15,7 +15,7 @@
       color: #444;
       padding: 0 10px;
       font-family: Arial, Helvetica, sans-serif;
-      background-color: #e2e2e2;
+      background-color: rgb(255, 244, 236);
     }
 
     h1,
@@ -38,41 +38,60 @@
 
 <body>
   <header>
-    <img src="assets/logocrop_portfolio.png" alt="logo of a howling wolf with the text 'Mayanwolfe' underneath">
+    <img src="assets/logocrop_portfolio_warm.png" alt="logo of a howling wolf with the text 'Mayanwolfe' underneath">
     <h1>Claire Bourdon | Senior Developer</h1>
+    <em>Note: All links on this page will open in a new tab.</em>
     <h2>Socials:</h2>
-    <ul>
-    <li><strong>Twitter:</strong> <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/mayanwolfe">@mayanwolfe</a></li>
-    <li><strong>Bluesky:</strong> <a target="_blank" rel="noopener noreferrer" href="https://bsky.app/profile/mayanwolfe.bsky.social">@mayanwolfe.bsky.social</a></li>
-    <li><strong>LinkedIn:</strong> <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/clairebourdondeveloper/">Claire Bourdon</a></li>
-    <li><strong>Twitch:</strong> <a target="_blank" rel="noopener noreferrer" href="https://www.twitch.tv/mayanwolfe">Mayanwolfe</a></li>
-    <li><strong>YouTube:</strong> <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCthaCpfAkt_gOFku4JOHJtQ">Mayanwolfe Streams</a></li>
-    <li><strong>Resume:</strong> <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1VL3r56URasP99Ws-ChcjxfCDoK7Pg9Hu/view?usp=sharing">Click here for a PDF.</a></li>
-    <li><strong>Portfolio:</strong> You're here already, but it's <a href="https://mayanwolfe.com">mayanwolfe.com</a> if you like recursion.</li>
-   </ul>
+    <nav aria-label="Social media links">
+      <ul>
+        <!-- Use more descriptive text for links for better context -->
+        <li><strong>Twitter:</strong> <a href="https://twitter.com/mayanwolfe" aria-label="Twitter profile for Mayanwolfe">@mayanwolfe</a></li>
+        <li><strong>Bluesky:</strong> <a href="https://bsky.app/profile/mayanwolfe.bsky.social" aria-label="Bluesky profile for Mayanwolfe">@mayanwolfe.bsky.social</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/clairebourdondeveloper/" aria-label="LinkedIn profile for Claire Bourdon">Claire Bourdon</a></li>
+        <li><strong>Twitch:</strong> <a href="https://www.twitch.tv/mayanwolfe" aria-label="Twitch channel for Mayanwolfe">Mayanwolfe</a></li>
+        <li><strong>YouTube:</strong> <a href="https://www.youtube.com/channel/UCthaCpfAkt_gOFku4JOHJtQ" aria-label="YouTube channel for Mayanwolfe Streams">Mayanwolfe Streams</a></li>
+        <li><strong>Resume:</strong> <a href="https://drive.google.com/file/d/1VL3r56URasP99Ws-ChcjxfCDoK7Pg9Hu/view?usp=sharing" aria-label="Download Claire Bourdon's Resume as a PDF">Click here for a PDF.</a></li>
+        <li><strong>Portfolio:</strong> You're here already, but <a href="https://mayanwolfe.com" aria-label="Mayanwolfe portfolio website">mayanwolfe.com</a> if you like recursion.</li>
+      </ul>
+    </nav>
     <hr>
   </header>
-  <h2>About Me:</h2>
-  <p>I'm a full-stack developer with a backend focus and 10 years of experience working with data. I <em>really</em> like data. Want to hear why Microsoft Excel is the best piece of software ever created? You do? Hello new best friend.</p>
+  <main>
+    <section aria-labelledby="about-me">
+  <h2 id="about-me">About Me:</h2>
+  <p>I'm a full-stack developer with a backend focus and 10 years of experience working with data. I have a Master's degree in Business and a Bachelor's in Statistics. Want to hear why Microsoft Excel is the best piece of software ever created? You do? Hello, new best friend.</p>
+  <p>I like <em>Star Trek</em>, indie video games, and playing frisbee with my Standard Poodle, Ben.
+  I don't like avocado, commercials, or restaurant websites that hide 
+  their menu.</p>
+</section>
 
-  <h2>Highlights:</h2>
+<section aria-labelledby="highlights">
+  <h2 id="highlights">Highlights:</h2>
   <ul>
     <li>Fluent in three flavors of <strong>SQL</strong> (MSSQL, PL/SQL, PostgreSQL)</li>
     <li>Skilled at building and maintaining performant <strong>ETL pipelines</strong> for large-scale data warehouses (3000+ tables)</li>
     <li>Create full-stack <strong>web apps</strong> or a <strong>desktop apps</strong> with ease using JavaScript, React, or C#.NET, take your pick. See my YouTube channel for examples.</li>
-    <li>Educator with <a target="_blank" rel="noopener noreferrer" href="https://100devs.org/about#:~:text=LinkedIn-,Claire%20(Mayanwolfe),-Maintainer%2C%20100Devs">100Devs</a>, a nonprofit program teaching <strong>thousands of students</strong> how to build web apps and get jobs using the MERN stack, for <strong>free</strong>.</li>
+    <li>Educator with <a target="_blank" rel="noopener noreferrer" href="https://100devs.org/about#:~:text=LinkedIn-,Claire%20(Mayanwolfe),-Maintainer%2C%20100Devs" aria-label="100Devs educational program website">100Devs</a>, a nonprofit program teaching <strong>thousands of students</strong> how to build web apps and get jobs using the MERN stack, for <strong>free</strong>.</li>
   </ul>
-  <h3>Check out my full work history and skills list on my <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1VL3r56URasP99Ws-ChcjxfCDoK7Pg9Hu/view?usp=sharing">Resume</a>.</h3>
-  <h2>What's Next?</h2>
+  <h3>Check out my full work history and skills list on my <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1VL3r56URasP99Ws-ChcjxfCDoK7Pg9Hu/view?usp=sharing" aria-label="Download Claire Bourdon's detailed resume as a PDF">Resume</a>.</h3>
+</section>
+ 
+<section aria-labelledby="whats-next">
+  <h2 id="whats-next">What's Next?</h2>
   <p>I'm looking for a <strong>new role</strong>. Do you need a capable senior dev on your team who can wrangle a database with some good old-fashioned SQL <u>and</u> communicate effectively with non-technical customers? Or maybe you need someone to patch up your API and Mongo your DB. I've got you covered. What about building and maintaining desktop apps? <em>Swish</em> - nothin' but (dot) NET. JavaScript, TypeScript, ReactJS, and even VB, I've done it all. Bonus points for you if the role involves doing challenging stuff in Excel once in a while, as a treat.</p>
-  <p>Contact me via any of the social links above, or send me an <a href="mailto:cebourdon625@gmail.com">email.</a></p>
-    <h3>By the way, what's up with the name "Mayanwolfe"?</h3>
+  <p>Contact me via any of the social links above, or send me an <a href="mailto:cebourdon625@gmail.com" aria-label="Send an email to Claire Bourdon">email.</a></p>
+</section>
+
+<section aria-labelledby="mayanwolfe-name">
+    <h3 id="mayanwolfe-name">By the way, what's up with the name "Mayanwolfe"?</h3>
     <p>Did you ever come up with a name that sounded cool when you were 13? Little did I know that it would stick with me for the next 20 years. Relevant <a target="_blank" rel="noopener noreferrer" href="https://xkcd.com/1129/">XKCD</a>.</p>
+  </section>
   <hr>
+</main>
   <footer>
   <h3>Credits</h3>
-  <p>Inspired by <a target="_blank" rel="noopener noreferrer" href="http://bettermotherfuckingwebsite.com/">this</a> and the basic ideas of simplicity, accessibility, and content-first design.</p>
-  <p>See the source code on my <a href="">Github</a>.</p>
+  <p>Inspired by <a target="_blank" rel="noopener noreferrer" href="http://bettermotherfuckingwebsite.com/" aria-label="Website called Better Motherf*cking Website">this</a> and the basic ideas of simplicity, accessibility, and content-first design.</p>
+  <p>See the source code on my <a href="https://github.com/Mayanwolfe/personal_website" aria-label="Github repository for Claire Bourdon's personal website">Github</a>.</p>
 </footer>
 </body>
 </html>
